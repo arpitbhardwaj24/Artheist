@@ -1,0 +1,35 @@
+@media only screen and (max-width: 991px) {
+  .collapse{
+    background-color: black !important;
+  }
+  .sidebar-collapse .navbar-collapse:before {
+    background: linear-gradient(#f96332 0%, #000 80%);
+  }
+}
+
+.collapse p {
+  font-size: 14px;
+}
+
+
+.btn-neutral p{
+  color: #f96332;
+}
+
+.collapse .lk p{
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 20px !important;
+  font-family: 'Montserrat';
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  .collapse .lk p{
+    text-align: left;
+    margin: 0px 20px;
+    font-size: 16px !important;
+  }
+}
