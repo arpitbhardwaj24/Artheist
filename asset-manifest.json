@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Artheist/static/css/main.04e06518.chunk.css",
+    "main.js": "/Artheist/static/js/main.59f1bafa.chunk.js",
+    "main.js.map": "/Artheist/static/js/main.59f1bafa.chunk.js.map",
+    "runtime-main.js": "/Artheist/static/js/runtime-main.90df695b.js",
+    "runtime-main.js.map": "/Artheist/static/js/runtime-main.90df695b.js.map",
+    "static/js/2.2df2c638.chunk.js": "/Artheist/static/js/2.2df2c638.chunk.js",
+    "static/js/2.2df2c638.chunk.js.map": "/Artheist/static/js/2.2df2c638.chunk.js.map",
+    "index.html": "/Artheist/index.html",
+    "precache-manifest.c1d1540567e13c97ec9835714826d359.js": "/Artheist/precache-manifest.c1d1540567e13c97ec9835714826d359.js",
+    "service-worker.js": "/Artheist/service-worker.js",
+    "static/css/main.04e06518.chunk.css.map": "/Artheist/static/css/main.04e06518.chunk.css.map",
+    "static/js/2.2df2c638.chunk.js.LICENSE.txt": "/Artheist/static/js/2.2df2c638.chunk.js.LICENSE.txt",
+    "static/media/artHeist_logo.png": "/Artheist/static/media/artHeist_logo.2ea34b77.png",
+    "static/media/avatar.jpg": "/Artheist/static/media/avatar.7257a1a9.jpg",
+    "static/media/bg12.jpeg": "/Artheist/static/media/bg12.99dd2dcd.jpeg",
+    "static/media/eva.jpg": "/Artheist/static/media/eva.089c4f4e.jpg",
+    "static/media/example2.jpeg": "/Artheist/static/media/example2.44f28c40.jpeg",
+    "static/media/julie.jpg": "/Artheist/static/media/julie.138381e5.jpg",
+    "static/media/ryan.jpg": "/Artheist/static/media/ryan.f217f346.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90df695b.js",
+    "static/js/2.2df2c638.chunk.js",
+    "static/css/main.04e06518.chunk.css",
+    "static/js/main.59f1bafa.chunk.js"
+  ]
+}
