@@ -1,8 +1,7 @@
 import React from "react";
-import "../../assets/css/nav.css";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
   Collapse,
   DropdownToggle,
   DropdownMenu,
@@ -15,11 +14,13 @@ import {
   Nav,
   Container,
   UncontrolledTooltip,
+  Button
 } from "reactstrap";
 
-import { Link as Navlink } from "react-router-dom";
+import "../../assets/css/examples.css";
+import "../../assets/css/nav.css"
 
-function IndexNavbar() {
+function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -52,13 +53,15 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} id="nav" expand="lg" color="dark">
+      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand href="#" id="navbar-brand"></NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Artheist.in
-            </UncontrolledTooltip>
+            <NavbarBrand
+              href="/"
+              id="navbar-brand"
+            >
+              ArtHeist
+            </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -74,46 +77,48 @@ function IndexNavbar() {
             </button>
           </div>
           <Collapse
-            className="justify-content-end collapse"
+            className="justify-content-end"
             isOpen={collapseOpen}
             navbar
           >
             <Nav navbar>
               <NavItem>
-                <Navlink to="/home/" className="lk">
-                  <p>Home</p>
-                </Navlink>
+                <NavLink to="/" tag={Link}>
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
-                <Navlink to="/ourTeam/" className="lk">
-                  <p>Our Team</p>
-                </Navlink>
+                <NavLink href="/#/ourTeam#top">
+                  Our Team
+                </NavLink>
+              </NavItem>
+              <NavItem className="contests">
+                <NavLink id="contests">
+                  CONTESTS
+                </NavLink>
+              <UncontrolledTooltip target="#contests">
+              Coming Soon!
+            </UncontrolledTooltip>
               </NavItem>
               <NavItem>
-                <Button
-                  className="nav-link btn-neutral"
-                  color="info"
-                  href="#pablo"
-                  id="upgrade-to-pro"
-                  onClick={(e) => e.preventDefault()}
+                <NavLink
+                  href="mailto:artheistindia@gmail.com"
+                  target="_blank"
+                  id="twitter-tooltip"
                 >
-                  <p style={{ fontWeight: 700, fontSize: 18 }}>Contests</p>
-                </Button>
-                <UncontrolledTooltip target="#upgrade-to-pro">
-                  Coming soon!
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#" target="_blank" id="twitter-tooltip">
-                <i className="fab fa-google-plus"></i>
-                  <p className="d-lg-none d-xl-none">Gmail</p>
+                  <i className="fab fa-google-plus"></i>
+                  <p className="d-lg-none d-xl-none">E-mail</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Have a query? Mail Us.
+                  Send us an email
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.facebook.com/ArtHeist-102841054726376/" target="_blank" id="facebook-tooltip">
+                <NavLink
+                  href="https://www.facebook.com/ArtHeist-102841054726376/"
+                  target="_blank"
+                  id="facebook-tooltip"
+                >
                   <i className="fab fa-facebook-square"></i>
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
@@ -142,4 +147,4 @@ function IndexNavbar() {
   );
 }
 
-export default IndexNavbar;
+export default ExamplesNavbar;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .about {
   width: 60%;
@@ -16,89 +17,101 @@
   width: 100%;
 }
 
-.example {
-  height: auto;
-  background-color: #363b3f;
-  color: white;
-  padding-top: 50px;
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
+.mb-20 {
+  margin-bottom: 60px;
+}
+/* 
+.lg-nv {
+  display: none;
+} */
+
+.arrow {
+  height: 150px;
+  padding: 20px;
 }
 
-.example .e1 {
-  width: 50%;
-  float: left;
-  margin: 0 auto;
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 300ms ease-out, transform 100ms ease-out,
+    visibility 300ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }
 
-.example .e1 p {
-  text-align: justify;
-  margin-left: 40px;
-  font-size: 20px;
+img.vert-move {
+  -webkit-animation: mover 0.3s infinite alternate;
+  animation: mover 0.3s infinite alternate;
 }
-
-.example img {
-  width: 30%;
-  height: 500px;
-  padding-bottom: 50px;
+img.vert-move {
+  -webkit-animation: mover 0.3s infinite alternate;
+  animation: mover 0.3s infinite alternate;
 }
-
-.form .form-btn {
-  background-color: #2ca8ff;
-  color: white;
-  width: 200px;
-  font-size: 21px;
-  margin-left: 35%;
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
-
-.form {
-  width: 40%;
-  margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.form h2 {
-  text-align: center;
-  margin-bottom: 0;
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  .example .e1 {
-    width: 90%;
-    float: none;
-    margin: 0 auto;
-  }
-
-  .about {
+  .form {
     width: 80%;
   }
-  .example .e1 p {
+
+  .sm-nv {
+    width: 100%; 
+  } 
+  .md-6 {
     display: none;
   }
-  .example .e2 {
-    width: 70%;
-    float: none;
-    margin: 0 auto;
-    padding-bottom: 10px;
+  .image-right {
+    margin-left: 0px !important;
   }
-  .example .e2 img {
-    width: 100%;
-    height: auto;
+  .bd {
+    left: 50px;
   }
-  .form {
-    width: 60%;
-  }
-  .form .form-btn {
-    width: 200px;
-    font-size: 16px;
-    margin-left: 25%;
-  }
+  .section-about-us h1 {
+    font-size: 29px;
+}
+.section-about-us h4 {
+  font-size: 16px;
+}
+.mg-auto {
+  margin: 0 auto;
+}
 }
 
-@media only screen and (max-width: 600px) {
-  .form {
-    width: 80%;
+
+@media only screen and (max-width: 500px) {
+
+  .sm-nv {
+    display: none; 
+  } 
+  .section-about-us h1 {
+      font-size: 25px;
   }
+  .section-about-us h4 {
+    font-size: 16px;
+  }
+  
 }
+
+
+
+

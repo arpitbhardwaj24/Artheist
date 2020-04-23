@@ -1,0 +1,78 @@
+.cardCustom {
+    padding: 20px; 
+    padding-top: 70px;
+    border: 2px #f96332 solid; 
+    margin: 0 20px;
+    min-height: 400px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+
+.sm-nb {
+    margin-top: 50px;
+}
+
+.btn-custom {
+    margin-top: 70px;
+}
+
+.heading {
+    font-weight: 600;
+    color: #f96332 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardCustom {
+        margin-bottom: 50px;
+    }
+    .sm-nb {
+        margin-top: 0;
+    }
+    .btn-custom {
+        margin-top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) { 
+    .lg-nv {
+        display: none;
+    }
+
+  }
+
+  @media only screen and (min-width: 1000px) { 
+
+    .contests {
+        background-color: #f96332;
+        border-radius: 3px;
+    }
+  }
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

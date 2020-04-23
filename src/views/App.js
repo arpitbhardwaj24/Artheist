@@ -33,11 +33,11 @@ function App() {
       <Router>
         <IndexNavbar />
         <Switch>
-          <Route path="/home/" exact component={Main} />
+          <Route path="/" exact component={Main} />
           <Route path="/ourTeam/" exact component={Team} />
         </Switch>
         <DarkFooter />
-        <Redirect from="/" to="/home" />
+        {/* <Redirect from="/" to="/home" /> */}
       </Router>
     </>
   );

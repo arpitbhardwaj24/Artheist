@@ -11,6 +11,9 @@
   font-size: 14px;
 }
 
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 14px !important;
+}
 
 .btn-neutral p{
   color: #f96332;
@@ -24,6 +27,10 @@
   font-family: 'Montserrat';
 }
 
+#navbar-brand {
+  font-size: 22px;
+  text-transform: none;
+}
 
 
 @media only screen and (max-width: 990px) {

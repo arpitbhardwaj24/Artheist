@@ -1,26 +1,53 @@
 /*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
+
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container,
+  UncontrolledTooltip } from "reactstrap";
+import '../../assets/css/app.css'
 
 function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
-      <Container>
-        <Row>
-          <Col sm="12" md={{ size: 6, offset: 0 }}>
-            <div
-              className="copyright .col-sm-12 .col-md-6 .offset-md-3 text-center"
-              id="copyright"
-            >
-              © {new Date().getFullYear()}, Designed by{" "}
-              <Link to="/home/" >
-                Artheist.in
-              </Link>
-            </div>
-          </Col>
-        </Row>
+      <Container className="text-center">
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                ARTHEIST
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#/ourTeam"
+              >
+                Our team
+              </a>
+            </li>
+            <li>
+              <a
+              id="contestFooter"
+              >
+                contests
+              </a>
+              <UncontrolledTooltip target="#contestFooter">
+              Coming Soon!
+            </UncontrolledTooltip>
+            </li>
+          </ul>
+        </nav>
+        
+        <div className="copyright sm-nv" id="copyright">
+          © {new Date().getFullYear()}, Made with ❤️ by {" "}
+          <a
+            href="/"
+          >
+            Artheist 
+          </a>
+           .
+        </div>
       </Container>
     </footer>
   );

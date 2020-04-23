@@ -15,8 +15,9 @@ import {
 
 const Team = () => {
     return ( 
-        <>
-             <div className="section section-team text-center">
+      <div className="wrapper">
+        <a name="top"></a>
+          <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
             <div className="team">
@@ -193,8 +194,7 @@ const Team = () => {
             </div>
           </Container>
         </div>
-       {/* <div className="tt"></div> */}
-        </>
+        </div>
      );
 }
  
