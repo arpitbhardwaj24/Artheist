@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Container,
@@ -13,22 +14,23 @@ function DarkFooter() {
         <nav>
           <ul>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
               >
                 ARTHEIST
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/#/ourTeam"
+              <Link
+                to="/ourTeam/"
               >
                 Our team
-              </a>
+              </Link>
             </li>
             <li>
               <a
               id="contestFooter"
+              disabled
               >
                 contests
               </a>
@@ -41,11 +43,11 @@ function DarkFooter() {
         
         <div className="copyright sm-nv" id="copyright">
           © {new Date().getFullYear()}, Made with ❤️ by {" "}
-          <a
-            href="/"
+          <Link
+            to="/"
           >
             Artheist 
-          </a>
+          </Link>
            .
         </div>
       </Container>
