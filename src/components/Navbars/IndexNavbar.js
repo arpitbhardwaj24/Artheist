@@ -85,7 +85,7 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/ourTeam/">Our Team</NavLink>
+                <NavLink to="/ourTeam/" tag={Link}>Our Team</NavLink>
               </NavItem>
               <NavItem className="contests">
                 <NavLink id="contests">CONTESTS</NavLink>
