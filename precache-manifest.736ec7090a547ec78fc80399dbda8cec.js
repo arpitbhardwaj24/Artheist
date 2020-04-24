@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53c7176bb5849f5c0fca1a9010395a6c",
+    "revision": "06ad0838bebd2172cc3b8c375faceb76",
     "url": "/Artheist/index.html"
   },
   {
-    "revision": "f9ad39fcc25a678ccdb2",
+    "revision": "b37a574fb983e8c39511",
     "url": "/Artheist/static/css/main.9c78facc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/js/2.0a9675b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9ad39fcc25a678ccdb2",
-    "url": "/Artheist/static/js/main.669882bc.chunk.js"
+    "revision": "b37a574fb983e8c39511",
+    "url": "/Artheist/static/js/main.d491fb8c.chunk.js"
   },
   {
     "revision": "69832da7b0fcf444b1dd",
