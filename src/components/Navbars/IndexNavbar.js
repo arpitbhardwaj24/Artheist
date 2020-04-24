@@ -56,8 +56,8 @@ function ExamplesNavbar() {
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand to="/" id="navbar-brand">
-              ArtHeist
+            <NavbarBrand  id="navbar-brand">
+              <Link to="/">ArtHeist</Link>
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -85,7 +85,7 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/ourTeam/">Our Team</NavLink>
+                <NavLink to="/ourTeam/">Our Team</NavLink>
               </NavItem>
               <NavItem className="contests">
                 <NavLink id="contests">CONTESTS</NavLink>
