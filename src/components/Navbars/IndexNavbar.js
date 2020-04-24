@@ -14,11 +14,11 @@ import {
   Nav,
   Container,
   UncontrolledTooltip,
-  Button
+  Button,
 } from "reactstrap";
 
 import "../../assets/css/examples.css";
-import "../../assets/css/nav.css"
+import "../../assets/css/nav.css";
 
 function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -56,10 +56,7 @@ function ExamplesNavbar() {
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="/"
-              id="navbar-brand"
-            >
+            <NavbarBrand to="/" id="navbar-brand">
               ArtHeist
             </NavbarBrand>
             <button
@@ -88,17 +85,13 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#/ourTeam#top">
-                  Our Team
-                </NavLink>
+                <NavLink href="/ourTeam/">Our Team</NavLink>
               </NavItem>
               <NavItem className="contests">
-                <NavLink id="contests">
-                  CONTESTS
-                </NavLink>
-              <UncontrolledTooltip target="#contests">
-              Coming Soon!
-            </UncontrolledTooltip>
+                <NavLink id="contests">CONTESTS</NavLink>
+                <UncontrolledTooltip target="#contests">
+                  Coming Soon!
+                </UncontrolledTooltip>
               </NavItem>
               <NavItem>
                 <NavLink
