@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Artheist/static/css/main.9c78facc.chunk.css",
-    "main.js": "/Artheist/static/js/main.e280e05a.chunk.js",
-    "main.js.map": "/Artheist/static/js/main.e280e05a.chunk.js.map",
+    "main.css": "/Artheist/static/css/main.ba3522f4.chunk.css",
+    "main.js": "/Artheist/static/js/main.2fb860da.chunk.js",
+    "main.js.map": "/Artheist/static/js/main.2fb860da.chunk.js.map",
     "runtime-main.js": "/Artheist/static/js/runtime-main.90df695b.js",
     "runtime-main.js.map": "/Artheist/static/js/runtime-main.90df695b.js.map",
     "static/js/2.2505998b.chunk.js": "/Artheist/static/js/2.2505998b.chunk.js",
     "static/js/2.2505998b.chunk.js.map": "/Artheist/static/js/2.2505998b.chunk.js.map",
     "index.html": "/Artheist/index.html",
-    "precache-manifest.dfbb03d7e1db32c825dd835253f3b351.js": "/Artheist/precache-manifest.dfbb03d7e1db32c825dd835253f3b351.js",
+    "precache-manifest.a5f6f9a324be8383fcb8d9418f8f66a1.js": "/Artheist/precache-manifest.a5f6f9a324be8383fcb8d9418f8f66a1.js",
     "service-worker.js": "/Artheist/service-worker.js",
-    "static/css/main.9c78facc.chunk.css.map": "/Artheist/static/css/main.9c78facc.chunk.css.map",
+    "static/css/main.ba3522f4.chunk.css.map": "/Artheist/static/css/main.ba3522f4.chunk.css.map",
     "static/js/2.2505998b.chunk.js.LICENSE.txt": "/Artheist/static/js/2.2505998b.chunk.js.LICENSE.txt",
     "static/media/art.svg": "/Artheist/static/media/art.588ba319.svg",
     "static/media/artHeist_logo.png": "/Artheist/static/media/artHeist_logo.2ea34b77.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.90df695b.js",
     "static/js/2.2505998b.chunk.js",
-    "static/css/main.9c78facc.chunk.css",
-    "static/js/main.e280e05a.chunk.js"
+    "static/css/main.ba3522f4.chunk.css",
+    "static/js/main.2fb860da.chunk.js"
   ]
 }
