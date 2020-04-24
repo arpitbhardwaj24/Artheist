@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Artheist/precache-manifest.736ec7090a547ec78fc80399dbda8cec.js"
+  "/Artheist/precache-manifest.dfbb03d7e1db32c825dd835253f3b351.js"
 );
 
 self.addEventListener('message', (event) => {
