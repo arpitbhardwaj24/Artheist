@@ -36,3 +36,12 @@
 .team-player .category {
     color: #f96332 !important;
 }
+
+.logo-credit {
+    color: white !important;
+
+}
+
+.logo-credit span {
+    color: #f96332;
+}
