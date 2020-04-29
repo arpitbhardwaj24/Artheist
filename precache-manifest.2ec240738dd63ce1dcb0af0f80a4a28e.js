@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00b25e7e27d7a0e14c3a48c491b3dde4",
+    "revision": "146854844af00e231e244f003f637d94",
     "url": "/Artheist/index.html"
   },
   {
-    "revision": "5163be1efba2dd85899f",
-    "url": "/Artheist/static/css/main.ba3522f4.chunk.css"
+    "revision": "a7fb2d4502a547f0c11b",
+    "url": "/Artheist/static/css/main.c6e54c24.chunk.css"
   },
   {
     "revision": "294b8f2c8d3dc886a53c",
@@ -16,12 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/js/2.2505998b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5163be1efba2dd85899f",
-    "url": "/Artheist/static/js/main.2fb860da.chunk.js"
+    "revision": "a7fb2d4502a547f0c11b",
+    "url": "/Artheist/static/js/main.06724edd.chunk.js"
   },
   {
     "revision": "69832da7b0fcf444b1dd",
     "url": "/Artheist/static/js/runtime-main.90df695b.js"
+  },
+  {
+    "revision": "8af7687e47daf3a67fbfb3658cb3d309",
+    "url": "/Artheist/static/media/aditya2.8af7687e.jpeg"
+  },
+  {
+    "revision": "cffd398d33c84c4fdf7ea277c5892165",
+    "url": "/Artheist/static/media/arpit.cffd398d.jpg"
   },
   {
     "revision": "588ba319e9467b0c8ae78b6f3ef17842",
@@ -32,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/media/artHeist_logo.2ea34b77.png"
   },
   {
-    "revision": "7257a1a94be550133f3233fd792ee724",
-    "url": "/Artheist/static/media/avatar.7257a1a9.jpg"
+    "revision": "b45c90d43df9311b023d278f5bea4bc1",
+    "url": "/Artheist/static/media/ashu3.b45c90d4.jpg"
   },
   {
     "revision": "645a4f888ee10e11763e958f8ec1aca1",
@@ -52,20 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/media/dance.9aeef801.jpg"
   },
   {
-    "revision": "089c4f4e55f158a69d0364c6b6339f37",
-    "url": "/Artheist/static/media/eva.089c4f4e.jpg"
-  },
-  {
     "revision": "0ba8533e1fd9539c001ce9455ab8e909",
     "url": "/Artheist/static/media/fashion.0ba8533e.svg"
   },
   {
     "revision": "3639e7eff6653acdee926ef2f1128ccd",
     "url": "/Artheist/static/media/gymnast.3639e7ef.svg"
-  },
-  {
-    "revision": "138381e51c42397348a82b448b5fb61b",
-    "url": "/Artheist/static/media/julie.138381e5.jpg"
   },
   {
     "revision": "c718bc574c45cd2f671b7c144e3c74d2",

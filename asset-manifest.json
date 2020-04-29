@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Artheist/static/css/main.ba3522f4.chunk.css",
-    "main.js": "/Artheist/static/js/main.2fb860da.chunk.js",
-    "main.js.map": "/Artheist/static/js/main.2fb860da.chunk.js.map",
+    "main.css": "/Artheist/static/css/main.c6e54c24.chunk.css",
+    "main.js": "/Artheist/static/js/main.06724edd.chunk.js",
+    "main.js.map": "/Artheist/static/js/main.06724edd.chunk.js.map",
     "runtime-main.js": "/Artheist/static/js/runtime-main.90df695b.js",
     "runtime-main.js.map": "/Artheist/static/js/runtime-main.90df695b.js.map",
     "static/js/2.2505998b.chunk.js": "/Artheist/static/js/2.2505998b.chunk.js",
     "static/js/2.2505998b.chunk.js.map": "/Artheist/static/js/2.2505998b.chunk.js.map",
     "index.html": "/Artheist/index.html",
-    "precache-manifest.a5f6f9a324be8383fcb8d9418f8f66a1.js": "/Artheist/precache-manifest.a5f6f9a324be8383fcb8d9418f8f66a1.js",
+    "precache-manifest.2ec240738dd63ce1dcb0af0f80a4a28e.js": "/Artheist/precache-manifest.2ec240738dd63ce1dcb0af0f80a4a28e.js",
     "service-worker.js": "/Artheist/service-worker.js",
-    "static/css/main.ba3522f4.chunk.css.map": "/Artheist/static/css/main.ba3522f4.chunk.css.map",
+    "static/css/main.c6e54c24.chunk.css.map": "/Artheist/static/css/main.c6e54c24.chunk.css.map",
     "static/js/2.2505998b.chunk.js.LICENSE.txt": "/Artheist/static/js/2.2505998b.chunk.js.LICENSE.txt",
+    "static/media/aditya2.jpeg": "/Artheist/static/media/aditya2.8af7687e.jpeg",
+    "static/media/arpit.jpg": "/Artheist/static/media/arpit.cffd398d.jpg",
     "static/media/art.svg": "/Artheist/static/media/art.588ba319.svg",
     "static/media/artHeist_logo.png": "/Artheist/static/media/artHeist_logo.2ea34b77.png",
-    "static/media/avatar.jpg": "/Artheist/static/media/avatar.7257a1a9.jpg",
+    "static/media/ashu3.jpg": "/Artheist/static/media/ashu3.b45c90d4.jpg",
     "static/media/bg11.jpeg": "/Artheist/static/media/bg11.645a4f88.jpeg",
     "static/media/curtainL.png": "/Artheist/static/media/curtainL.5db6559f.png",
     "static/media/curtainR.png": "/Artheist/static/media/curtainR.07f173cf.png",
     "static/media/dance.jpg": "/Artheist/static/media/dance.9aeef801.jpg",
-    "static/media/eva.jpg": "/Artheist/static/media/eva.089c4f4e.jpg",
     "static/media/fashion.svg": "/Artheist/static/media/fashion.0ba8533e.svg",
     "static/media/gymnast.svg": "/Artheist/static/media/gymnast.3639e7ef.svg",
-    "static/media/julie.jpg": "/Artheist/static/media/julie.138381e5.jpg",
     "static/media/login.png": "/Artheist/static/media/login.c718bc57.png",
     "static/media/ryan.jpg": "/Artheist/static/media/ryan.f217f346.jpg",
     "static/media/up-broken-line-arrow.svg": "/Artheist/static/media/up-broken-line-arrow.f432d481.svg"
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.90df695b.js",
     "static/js/2.2505998b.chunk.js",
-    "static/css/main.ba3522f4.chunk.css",
-    "static/js/main.2fb860da.chunk.js"
+    "static/css/main.c6e54c24.chunk.css",
+    "static/js/main.06724edd.chunk.js"
   ]
 }
