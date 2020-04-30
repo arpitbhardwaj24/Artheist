@@ -122,7 +122,7 @@ const Team = () => {
                   <img
                     alt="..."
                     className="rounded-circle img-fluid img-raised"
-                    src={require("assets/img/me1.jpeg")}
+                    src={require("assets/img/me2.jpeg")}
                   ></img>
                   <h4 className="title">Chahat Bhatia</h4>
                   {/* <p className="category text-info">Designer</p>
