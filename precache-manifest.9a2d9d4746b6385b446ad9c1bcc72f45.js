@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "146854844af00e231e244f003f637d94",
+    "revision": "66f6317719d6b78c6f1810ec50638dee",
     "url": "/Artheist/index.html"
   },
   {
-    "revision": "a7fb2d4502a547f0c11b",
-    "url": "/Artheist/static/css/main.c6e54c24.chunk.css"
+    "revision": "0dbe17643e4e85319746",
+    "url": "/Artheist/static/css/main.e7aaedd6.chunk.css"
   },
   {
     "revision": "294b8f2c8d3dc886a53c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/js/2.2505998b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7fb2d4502a547f0c11b",
-    "url": "/Artheist/static/js/main.06724edd.chunk.js"
+    "revision": "0dbe17643e4e85319746",
+    "url": "/Artheist/static/js/main.8194d9d9.chunk.js"
   },
   {
     "revision": "69832da7b0fcf444b1dd",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Artheist/static/media/login.c718bc57.png"
   },
   {
-    "revision": "f217f346c88e5fb2720ca7c28827ff72",
-    "url": "/Artheist/static/media/ryan.f217f346.jpg"
+    "revision": "ed8b26b6c8375a0f291bd143fcc0cdb7",
+    "url": "/Artheist/static/media/me1.ed8b26b6.jpeg"
   },
   {
     "revision": "f432d48177c614c9f34a943a280d1789",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Artheist/static/css/main.c6e54c24.chunk.css",
-    "main.js": "/Artheist/static/js/main.06724edd.chunk.js",
-    "main.js.map": "/Artheist/static/js/main.06724edd.chunk.js.map",
+    "main.css": "/Artheist/static/css/main.e7aaedd6.chunk.css",
+    "main.js": "/Artheist/static/js/main.8194d9d9.chunk.js",
+    "main.js.map": "/Artheist/static/js/main.8194d9d9.chunk.js.map",
     "runtime-main.js": "/Artheist/static/js/runtime-main.90df695b.js",
     "runtime-main.js.map": "/Artheist/static/js/runtime-main.90df695b.js.map",
     "static/js/2.2505998b.chunk.js": "/Artheist/static/js/2.2505998b.chunk.js",
     "static/js/2.2505998b.chunk.js.map": "/Artheist/static/js/2.2505998b.chunk.js.map",
     "index.html": "/Artheist/index.html",
-    "precache-manifest.2ec240738dd63ce1dcb0af0f80a4a28e.js": "/Artheist/precache-manifest.2ec240738dd63ce1dcb0af0f80a4a28e.js",
+    "precache-manifest.9a2d9d4746b6385b446ad9c1bcc72f45.js": "/Artheist/precache-manifest.9a2d9d4746b6385b446ad9c1bcc72f45.js",
     "service-worker.js": "/Artheist/service-worker.js",
-    "static/css/main.c6e54c24.chunk.css.map": "/Artheist/static/css/main.c6e54c24.chunk.css.map",
+    "static/css/main.e7aaedd6.chunk.css.map": "/Artheist/static/css/main.e7aaedd6.chunk.css.map",
     "static/js/2.2505998b.chunk.js.LICENSE.txt": "/Artheist/static/js/2.2505998b.chunk.js.LICENSE.txt",
     "static/media/aditya2.jpeg": "/Artheist/static/media/aditya2.8af7687e.jpeg",
     "static/media/arpit.jpg": "/Artheist/static/media/arpit.cffd398d.jpg",
@@ -24,13 +24,13 @@
     "static/media/fashion.svg": "/Artheist/static/media/fashion.0ba8533e.svg",
     "static/media/gymnast.svg": "/Artheist/static/media/gymnast.3639e7ef.svg",
     "static/media/login.png": "/Artheist/static/media/login.c718bc57.png",
-    "static/media/ryan.jpg": "/Artheist/static/media/ryan.f217f346.jpg",
+    "static/media/me1.jpeg": "/Artheist/static/media/me1.ed8b26b6.jpeg",
     "static/media/up-broken-line-arrow.svg": "/Artheist/static/media/up-broken-line-arrow.f432d481.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.90df695b.js",
     "static/js/2.2505998b.chunk.js",
-    "static/css/main.c6e54c24.chunk.css",
-    "static/js/main.06724edd.chunk.js"
+    "static/css/main.e7aaedd6.chunk.css",
+    "static/js/main.8194d9d9.chunk.js"
   ]
 }
