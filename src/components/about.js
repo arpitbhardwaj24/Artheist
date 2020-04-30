@@ -45,7 +45,7 @@ const About = () => {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <FadeInSection>
                 <h1 className="title">What we do?</h1>
-                <h4 className="description">
+                <h4 className="description des">
                 We organize contests with well-known artists from Instagram, ad firms & different social media handles to promote talented people like you and guess what?! The winners of each contest will be featured alongside the judge, giving ordinary people an extraordinary opportunity to showcase their skills                </h4>
               
                 </FadeInSection>
@@ -82,7 +82,7 @@ const About = () => {
                   <h3>
                   Art has many forms, and cannot be defined into a single category. 
                   </h3>
-                  <p>
+                  <p className="des">
                   We at artHeist provide different platforms to make sure that your talent gets a chance to shine in the spotlight.
                   </p>
                   

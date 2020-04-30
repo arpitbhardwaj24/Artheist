@@ -20,7 +20,7 @@ const Form = () => {
       <div className="section section-contact-us text-center">
           <Container>
             <h2 className="title">Embark your artistic journey with us.</h2>
-            <p className="description">Our goal is to work for people and help support their work, by showcasing it to a digital audience, giving them the praise and resepct they truly deserve.</p>
+            <p className="description des">Our goal is to work for people and help support their work, by showcasing it to a digital audience, giving them the praise and resepct they truly deserve.</p>
             <Row>
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
 

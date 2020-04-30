@@ -5,6 +5,9 @@
   .sidebar-collapse .navbar-collapse:before {
     background: linear-gradient(#f96332 0%, #000 80%);
   }
+  .sidebar-collapse .navbar .navbar-toggler-bar {
+    height: 2px;
+  }
 }
 
 .collapse p {
@@ -27,10 +30,10 @@
   font-family: 'Montserrat';
 }
 
-#navbar-brand {
+#navbar-brand a{
   font-size: 22px;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 

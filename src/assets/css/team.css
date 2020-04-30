@@ -45,3 +45,9 @@
 .logo-credit span {
     color: #f96332;
 }
+
+@media only screen and ( max-width: 530px ) {
+    .logo-credit span {
+        display: block;
+    }
+}
