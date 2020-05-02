@@ -46,7 +46,7 @@ const About = () => {
                 <FadeInSection>
                 <h1 className="title">What we do?</h1>
                 <h4 className="description des">
-                We organize contests with well-known artists from Instagram, ad firms & different social media handles to promote talented people like you and guess what?! The winners of each contest will be featured alongside the judge, giving ordinary people an extraordinary opportunity to showcase their skills                </h4>
+                We organize contests with well-known artists from Instagram, ad firms & different social media handles to promote talented people like you and guess what ! The winners of each contest will be featured alongside the judge, giving ordinary people an extraordinary opportunity to showcase their skills                </h4>
               
                 </FadeInSection>
                 </Col>
